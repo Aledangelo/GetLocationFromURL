@@ -1,6 +1,6 @@
 # GetLocationFromURL
 
-This script was create to find a location via a URL.
+This script was created to find a location via a URL.
 
 It is created and tested on Linux and MacOS.
 
