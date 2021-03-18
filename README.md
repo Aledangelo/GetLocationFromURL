@@ -10,7 +10,7 @@ Download python3 at https://www.python.org/downloads/release/python-392/
 
 Download pip at https://pip.pypa.io/en/stable/installing/
 
-pip3 install django
+# Installation
 
-pip3 install ip2geotools
+pip3 install -r requirements.txt
 
