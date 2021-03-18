@@ -5,6 +5,9 @@ from django.core.exceptions import ValidationError, ImproperlyConfigured
 
 validate = URLValidator()
 url = input("Insert a URL (www.example.com): ")
+if "http" in url:
+    x = url.split("//")
+    url = x[1]
 
 try:
     tryURL = "https://" + url
